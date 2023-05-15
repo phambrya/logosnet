@@ -1,1 +1,3 @@
 # logosnet
+
+For this project I will be implementing a server and two distinct types of clients for a simple online chat application. The two types of clients are observers and participant. The main job of observers is that they are able to receive and display a stream of messages from the server in real-time, but they do not send any messages. The main job of participant is that they are able to send messages to other participant along with private messages. You server should be able handle up to 255 observers and 255 participants. Observers and participants are allowed to leave any time and participant will have to make a unique username when connected.
